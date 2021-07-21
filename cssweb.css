@@ -1,0 +1,530 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+ width: 1200px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial,sans-serif;
+  font-size: 16px;
+  background-image: url(https://4.bp.blogspot.com/-LK7PzMbMn0M/WLlCb3hkfNI/AAAAAAAAEKA/w2L6cVGCEjAKUYRQH-9YzT5zXehwpexBgCLcB/s1600/shutterstock_135864119.jpg);
+  background-attachment: fixed;
+  }
+  #logo{
+  float: left;
+  background: yellow;
+  border: 1px solid yellow;
+  border-radius: 50%;
+  padding: 1em;
+  width: 70px;
+
+}
+#logo3{
+  float: left;
+  background: yellow;
+  border: 1px solid yellow;
+  border-radius: 50%;
+  padding: 1em;
+ }
+#tren{
+  float right;
+  padding: 1em;
+  width: 1150px;
+  
+}
+#logo:hover{
+  background: red;
+  border: 1px solid red;
+  border-radius: 70%;
+}
+#tren li{
+  display: inline-block;
+ line-height: 40px;
+ margin-right: 50px;
+
+
+
+}
+#tren ul{
+  text-align: center;
+  border: 1px solid #333;
+  border-radius: 20px;
+  background: #333;
+  overflow: hidden;
+}
+#maunen{
+  background: #eb2f06;
+  
+}
+#tren ul li a:hover{
+  background:   #EEAEEE ;
+  color: #00F5FF ;
+  
+}
+#tren  ul li a{
+   text-decoration: none;
+  color: #fff;
+  display: block;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+/* HIỆU ỨNG ẢNH TRONG BODY*/
+
+  div.container{
+    border: 3px solid black;
+   cursor: : pointer;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+   position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    transition: all ease-in-out ;
+}
+
+.img {
+    width: 300px;
+    height: 225px;
+    position: relative;
+   
+    overflow: hidden;
+}
+
+.txt {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.52);
+   position: absolute;
+    bottom:50px;
+    text-align: center;
+    color: white;
+    padding:10px;
+    box-sizing: border-box;
+    opacity: 0;
+}
+.img:hover div.txt {
+    opacity: 1;
+    transform: translateY(50px);
+    transition:ease-in-out 0.5s;
+}
+
+.img:hover img {
+    transform: scale(1.5);
+    transition: all ease-in-out 0.5s;
+
+
+}
+#tainghe{
+  margin-top: 185px;
+  border: 1px solid white ;
+  float: left;
+  border-radius: 11%;
+  font-family: Florence, cursive;
+  font-style: oblique;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+.khunghead{
+  width: 10%;
+  height: 900px;
+
+}
+/* KHUNG ỐP LƯNG*/
+  div.container1{
+    border: 3px solid white;
+   cursor: : pointer;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+   position: absolute;
+    top: 1500px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .khunghead1{
+  width: 70%;
+  height: 900px;
+
+}#tainghe1{
+  margin-top: 88px;
+  border: 1px solid white ;
+  float: left;
+  border-radius: 11%;
+  font-family: Florence, cursive;
+  font-style: oblique;
+
+   
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+/* BUTTON*/
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #FFF;
+  background-color: #30336b;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #ffeaa7;
+}
+.button:hover {background-color: #00cec9}
+
+.button:active {
+ background-color: #0984e3;
+  box-shadow: 0 5px #d63031;
+  transform: translateY(4px);
+}
+/* DÂY SẠC*/
+
+  div.container2{
+    border: 3px solid white;
+   cursor: : pointer;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+   position: absolute;
+    top: 2400px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .khunghead2{
+  width: 70%;
+  height: 900px;
+
+}#tainghe2{
+  margin-top: 88px;
+  border: 1px solid white ;
+  float: left;
+  border-radius: 11%;
+  font-family: Florence, cursive;
+  font-style: oblique;
+
+   
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+#slider{
+  width: 600px;
+  margin: 0px auto;
+  height: 100px;
+}
+#tainghe5{
+  border: 1px solid white ;
+  float: right;
+  border-radius: 11%;
+  background-color: #f1f1f1;
+  font-family: Florence, cursive;
+  font-style: oblique;
+  position: -webkit-sticky;
+    position: sticky;
+   bottom: 650px;
+}
+/* CHI TIET*/
+.bodyanh{
+   width: 1000px;
+   margin: 0px auto;
+margin-top: 150px;
+font-family: Florence, cursive;
+font-size: 22px;
+
+}
+  .img2{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    overflow: hidden; 
+    float: right;
+  }
+
+/*Bang tinh*/
+.qwe{
+  margin-left: 250px;
+  margin-top: 50px;
+
+}
+.qwe2{
+  margin-left: 140px;
+  margin-top: 50px;
+}
+.button2 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+ outline: none;
+  color: #FFF;
+  background-color: #30336b;
+  border: none;
+  border-radius: 15px;
+
+}
+.button2:hover {background-color: #00cec9}
+
+.button2:active {
+  background-color: #0984e3;
+
+  transform: translateY(4px);
+}
+.chu{
+  float: left;
+  font-size: 15px;
+  background: white;
+  margin-top: 50px;
+}
+.khoangcach3 {
+  margin-top: 200px;
+  clear: both;  
+}
+/*fooder*/
+.fooder{
+  clear: both;
+background: #2d3436;
+color: white;
+padding: 1em;
+font-size: 10px;
+width: 980px;
+margin: 0px auto;
+margin-top: 300px;
+}
+.fooder2{
+background: #2d3436;
+color: white;
+padding: 1em;
+font-size: 10px;
+width: 900px;
+margin: 0px auto;
+top:2500px;
+}
+.fooder3{
+  clear: both;
+background: #2d3436;
+color: white;
+padding: 1em;
+font-size: 20px;
+width: 880px;
+margin: 0px auto;
+margin-top: 50px;
+}
+/*thanh quay lai*/
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+
+}
+.breadcrumb li a {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 15px;
+    color: #288ad6;
+    padding: 0 10px 0 0;
+}
+.breadcrumb span {
+    display: inline-block;
+    font-size: 10px;
+    color: #999;
+    padding: 2px 5px 0 0;
+    line-height: 1;
+}
+#menu{
+  margin-left: 100px;
+  margin-top: 10px;
+}
+/* Thỏ 7 màu*/
+#baymau{
+  font-size: 40px;
+  margin-top: 80px;
+  font-family: Florence, cursive;
+}
+/*Mua ngay*/
+.containe {
+    width: 30%;
+    margin: 0px auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+    input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid red;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: purple;
+} 
+/*THÔNG BÁO*/
+#thongbao{
+  width: 50px;
+  height: 50px;
+  margin: 0px auto;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+   -webkit-animation-iteration-count: 300;
+}
+@-webkit-keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  {left:0px; top:10px;}
+  50%  {left:0px; top:0px;}
+  75%  {left:0px; top:10px;}
+  100% {left:0px; top:0px;}
+}
+.button3 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+ outline: none;
+  color: #FFF;
+  background-color: #30336b;
+  border: none;
+  border-radius: 15px;
+}
+.button3:hover {background-color: #00cec9}
+
+.button:active {
+  background-color: #0984e3;
+
+  transform: translateY(4px);
+}
+.qwe4{
+  margin-left: 46%;
+  margin-top: 50px;
+}
+/*MESS*/
+/*timkiem*/
+.timkiem {
+    color: #666;
+    font: 90%/180% Arial, Helvetica, sans-serif;
+    max-width: 96%;
+    margin: 0 auto;
+}
+input {
+    outline: none;
+}
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+
+    font-size: 100%;
+}
+input[type=search] {
+    background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    border: solid 1px #ccc;
+    padding: 9px 10px 9px 32px;
+    width: 55px;
+
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+  
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+input[type=search]:focus {
+    border-color: #66CC75;
+    
+    -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+    -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+    box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+input::-webkit-input-placeholder {
+    color: red
+}
+/* Demo 2 */
+#demo-2 input[type=search] {
+    width: 15px;
+    padding-left: 10px;
+    color: transparent;
+    cursor: pointer;
+}
+
+#demo-2 input[type=search]:hover {
+    background-color: #ffff56;
+}
+
+#demo-2 input[type=search]:focus {
+    width: 130px;
+    padding-left: 32px;
+    color: #000;
+    background-color: #fff;
+    cursor: auto;
+}
+#anh{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+   -webkit-animation-iteration-count: 300;
+}
+@-webkit-keyframes example {
+  0%   { left:0px; right:0px;}
+  25%  {left:10px; right:0px;}
+  50%  {left:0px; right:0px;}
+  75%  {left:10px; right:0px;}
+  100% {left:0px; right:0px;}
+}
+}
+
+/* Gio hàng */
+ div.container4{
+  
+    top: 600px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+  }
+.butt{
+  background-color: #4CAF50;
+}
+#vidu2{
+    background-color: red;
+}
+
+ 
+
+ 
+
